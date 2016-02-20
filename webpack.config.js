@@ -2,7 +2,7 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-  entry: path.resolve(__dirname, 'src/app.js'),
+  entry: path.resolve(__dirname, 'src/app.jsx'),
   output: {
       path: path.resolve(__dirname, 'static/js'),
       publicPath: 'static/js',
